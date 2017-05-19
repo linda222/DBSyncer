@@ -274,8 +274,6 @@ import org.postgresql.ds.PGSimpleDataSource;
 		 gpType = "BYTEA";
         break;
 	  case "BIT":
-		 gpType = "INT";
-			 break; 
 	  case "BOOLEAN":
 		 gpType = "BOOLEAN";
 		 break;
