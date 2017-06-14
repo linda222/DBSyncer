@@ -59,7 +59,7 @@ public class SyncMSSQLSnappy extends SyncData {
 	public SyncMSSQLSnappy(String configName) throws Exception {
 		super(configName);
 		this.configurationName = configName;
-		this.logger = new LogWriter(SyncOracleSnappy.class);
+		this.logger = new LogWriter(SyncMSSQLSnappy.class);
 
 		Properties pro = new Properties();
 		pro.put("sourceHost", "192.168.16.103");
